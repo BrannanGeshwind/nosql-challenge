@@ -1,5 +1,9 @@
 # nosql-challenge
 Repo for Module 12 Challenge (NoSQL)
+-----
+## Notes:
+-----
+To import dataset, use: mongoimport --type json -d uk_food -c establishments --drop --jsonArray <./Resources/establishments.json
 
 ## Updates:
 -----
@@ -9,6 +13,7 @@ Repo for Module 12 Challenge (NoSQL)
 - 8/31 - Created repo.
 
 ## Documentation and References:
+-----
 - [MongoDB](https://www.mongodb.com/docs/)
 - [Python](https://docs.python.org/3/)
 - [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/)
